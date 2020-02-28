@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048ECF5B2408F815009DF6A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ECF5A2408F815009DF6A7 /* AppDelegate.m */; };
+		048ECF612408F815009DF6A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ECF602408F815009DF6A7 /* ViewController.m */; };
+		048ECF642408F815009DF6A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF622408F815009DF6A7 /* Main.storyboard */; };
+		048ECF662408F816009DF6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF652408F816009DF6A7 /* Assets.xcassets */; };
+		048ECF692408F816009DF6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF672408F816009DF6A7 /* LaunchScreen.storyboard */; };
+		048ECF6C2408F816009DF6A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ECF6B2408F816009DF6A7 /* main.m */; };
+		048ECF762408F816009DF6A7 /* OpenGL______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ECF752408F816009DF6A7 /* OpenGL______Tests.m */; };
+		048ECF812408F816009DF6A7 /* OpenGL______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ECF802408F816009DF6A7 /* OpenGL______UITests.m */; };
+		048ECFC62408F823009DF6A7 /* openGLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ECF8F2408F823009DF6A7 /* openGLManager.m */; };
+		048ECFC72408F823009DF6A7 /* HexagonMosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF932408F823009DF6A7 /* HexagonMosaic.fsh */; };
+		048ECFC82408F823009DF6A7 /* circleMosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF942408F823009DF6A7 /* circleMosaic.fsh */; };
+		048ECFC92408F823009DF6A7 /* TriangleMosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF952408F823009DF6A7 /* TriangleMosaic.fsh */; };
+		048ECFCA2408F823009DF6A7 /* rectangleMosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF962408F823009DF6A7 /* rectangleMosaic.fsh */; };
+		048ECFCB2408F823009DF6A7 /* HexagonMosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF972408F823009DF6A7 /* HexagonMosaic.vsh */; };
+		048ECFCC2408F823009DF6A7 /* TriangleMosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF982408F823009DF6A7 /* TriangleMosaic.vsh */; };
+		048ECFCD2408F823009DF6A7 /* rectangleMosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF992408F823009DF6A7 /* rectangleMosaic.vsh */; };
+		048ECFCE2408F823009DF6A7 /* circleMosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF9A2408F823009DF6A7 /* circleMosaic.vsh */; };
+		048ECFCF2408F823009DF6A7 /* Vortex.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF9C2408F823009DF6A7 /* Vortex.vsh */; };
+		048ECFD02408F823009DF6A7 /* Vortex.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF9D2408F823009DF6A7 /* Vortex.fsh */; };
+		048ECFD12408F823009DF6A7 /* scale.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECF9F2408F823009DF6A7 /* scale.vsh */; };
+		048ECFD22408F823009DF6A7 /* scale.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFA02408F823009DF6A7 /* scale.fsh */; };
+		048ECFD32408F823009DF6A7 /* hallucinat.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFA22408F823009DF6A7 /* hallucinat.vsh */; };
+		048ECFD42408F823009DF6A7 /* hallucinat.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFA32408F823009DF6A7 /* hallucinat.fsh */; };
+		048ECFD52408F823009DF6A7 /* SplitScreen_9.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFA52408F823009DF6A7 /* SplitScreen_9.vsh */; };
+		048ECFD62408F823009DF6A7 /* SplitScreen_9.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFA62408F823009DF6A7 /* SplitScreen_9.fsh */; };
+		048ECFD72408F823009DF6A7 /* shake.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFA82408F823009DF6A7 /* shake.fsh */; };
+		048ECFD82408F823009DF6A7 /* shake.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFA92408F823009DF6A7 /* shake.vsh */; };
+		048ECFD92408F823009DF6A7 /* soulOut.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFAB2408F823009DF6A7 /* soulOut.vsh */; };
+		048ECFDA2408F823009DF6A7 /* soulOut.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFAC2408F823009DF6A7 /* soulOut.fsh */; };
+		048ECFDB2408F823009DF6A7 /* Gray.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFAE2408F823009DF6A7 /* Gray.vsh */; };
+		048ECFDC2408F823009DF6A7 /* Warm.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFAF2408F823009DF6A7 /* Warm.fsh */; };
+		048ECFDD2408F823009DF6A7 /* Cord.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFB02408F823009DF6A7 /* Cord.fsh */; };
+		048ECFDE2408F823009DF6A7 /* Gray.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFB12408F823009DF6A7 /* Gray.fsh */; };
+		048ECFDF2408F823009DF6A7 /* Cord.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFB22408F823009DF6A7 /* Cord.vsh */; };
+		048ECFE02408F823009DF6A7 /* Warm.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFB32408F823009DF6A7 /* Warm.vsh */; };
+		048ECFE12408F823009DF6A7 /* flash.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFB52408F823009DF6A7 /* flash.vsh */; };
+		048ECFE22408F823009DF6A7 /* flash.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFB62408F823009DF6A7 /* flash.fsh */; };
+		048ECFE32408F823009DF6A7 /* SplitScreen_2.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFB82408F823009DF6A7 /* SplitScreen_2.fsh */; };
+		048ECFE42408F823009DF6A7 /* SplitScreen_2.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFB92408F823009DF6A7 /* SplitScreen_2.vsh */; };
+		048ECFE52408F823009DF6A7 /* Normal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFBB2408F823009DF6A7 /* Normal.fsh */; };
+		048ECFE62408F823009DF6A7 /* Normal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFBC2408F823009DF6A7 /* Normal.vsh */; };
+		048ECFE72408F823009DF6A7 /* SplitScreen_4.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFBE2408F823009DF6A7 /* SplitScreen_4.fsh */; };
+		048ECFE82408F823009DF6A7 /* SplitScreen_4.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFBF2408F823009DF6A7 /* SplitScreen_4.vsh */; };
+		048ECFE92408F823009DF6A7 /* skinNeed.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFC12408F823009DF6A7 /* skinNeed.vsh */; };
+		048ECFEA2408F823009DF6A7 /* skinNeed.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFC22408F823009DF6A7 /* skinNeed.fsh */; };
+		048ECFEB2408F823009DF6A7 /* relief.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFC42408F823009DF6A7 /* relief.vsh */; };
+		048ECFEC2408F823009DF6A7 /* relief.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFC52408F823009DF6A7 /* relief.fsh */; };
+		048ECFEF2408FC4E009DF6A7 /* ccCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ECFEE2408FC4E009DF6A7 /* ccCollectionView.m */; };
+		048ECFF22408FC56009DF6A7 /* ccCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ECFF02408FC55009DF6A7 /* ccCollectionViewCell.m */; };
+		048ECFF42408FC73009DF6A7 /* filter.json in Resources */ = {isa = PBXBuildFile; fileRef = 048ECFF32408FC73009DF6A7 /* filter.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048ECF722408F816009DF6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048ECF4E2408F815009DF6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048ECF552408F815009DF6A7;
+			remoteInfo = "OpenGL-摄像头采集";
+		};
+		048ECF7D2408F816009DF6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048ECF4E2408F815009DF6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048ECF552408F815009DF6A7;
+			remoteInfo = "OpenGL-摄像头采集";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048ECF562408F815009DF6A7 /* OpenGL-摄像头采集.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL-摄像头采集.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048ECF592408F815009DF6A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048ECF5A2408F815009DF6A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048ECF5F2408F815009DF6A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		048ECF602408F815009DF6A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		048ECF632408F815009DF6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048ECF652408F816009DF6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048ECF682408F816009DF6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048ECF6A2408F816009DF6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048ECF6B2408F816009DF6A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048ECF712408F816009DF6A7 /* OpenGL-摄像头采集Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-摄像头采集Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048ECF752408F816009DF6A7 /* OpenGL______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL______Tests.m"; sourceTree = "<group>"; };
+		048ECF772408F816009DF6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048ECF7C2408F816009DF6A7 /* OpenGL-摄像头采集UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-摄像头采集UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		048ECF802408F816009DF6A7 /* OpenGL______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL______UITests.m"; sourceTree = "<group>"; };
+		048ECF822408F816009DF6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048ECF8F2408F823009DF6A7 /* openGLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openGLManager.m; sourceTree = "<group>"; };
+		048ECF902408F823009DF6A7 /* openGLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openGLManager.h; sourceTree = "<group>"; };
+		048ECF932408F823009DF6A7 /* HexagonMosaic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HexagonMosaic.fsh; sourceTree = "<group>"; };
+		048ECF942408F823009DF6A7 /* circleMosaic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = circleMosaic.fsh; sourceTree = "<group>"; };
+		048ECF952408F823009DF6A7 /* TriangleMosaic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = TriangleMosaic.fsh; sourceTree = "<group>"; };
+		048ECF962408F823009DF6A7 /* rectangleMosaic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = rectangleMosaic.fsh; sourceTree = "<group>"; };
+		048ECF972408F823009DF6A7 /* HexagonMosaic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HexagonMosaic.vsh; sourceTree = "<group>"; };
+		048ECF982408F823009DF6A7 /* TriangleMosaic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = TriangleMosaic.vsh; sourceTree = "<group>"; };
+		048ECF992408F823009DF6A7 /* rectangleMosaic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = rectangleMosaic.vsh; sourceTree = "<group>"; };
+		048ECF9A2408F823009DF6A7 /* circleMosaic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = circleMosaic.vsh; sourceTree = "<group>"; };
+		048ECF9C2408F823009DF6A7 /* Vortex.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Vortex.vsh; sourceTree = "<group>"; };
+		048ECF9D2408F823009DF6A7 /* Vortex.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Vortex.fsh; sourceTree = "<group>"; };
+		048ECF9F2408F823009DF6A7 /* scale.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = scale.vsh; sourceTree = "<group>"; };
+		048ECFA02408F823009DF6A7 /* scale.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = scale.fsh; sourceTree = "<group>"; };
+		048ECFA22408F823009DF6A7 /* hallucinat.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = hallucinat.vsh; sourceTree = "<group>"; };
+		048ECFA32408F823009DF6A7 /* hallucinat.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = hallucinat.fsh; sourceTree = "<group>"; };
+		048ECFA52408F823009DF6A7 /* SplitScreen_9.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_9.vsh; sourceTree = "<group>"; };
+		048ECFA62408F823009DF6A7 /* SplitScreen_9.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_9.fsh; sourceTree = "<group>"; };
+		048ECFA82408F823009DF6A7 /* shake.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shake.fsh; sourceTree = "<group>"; };
+		048ECFA92408F823009DF6A7 /* shake.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shake.vsh; sourceTree = "<group>"; };
+		048ECFAB2408F823009DF6A7 /* soulOut.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = soulOut.vsh; sourceTree = "<group>"; };
+		048ECFAC2408F823009DF6A7 /* soulOut.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = soulOut.fsh; sourceTree = "<group>"; };
+		048ECFAE2408F823009DF6A7 /* Gray.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Gray.vsh; sourceTree = "<group>"; };
+		048ECFAF2408F823009DF6A7 /* Warm.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Warm.fsh; sourceTree = "<group>"; };
+		048ECFB02408F823009DF6A7 /* Cord.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Cord.fsh; sourceTree = "<group>"; };
+		048ECFB12408F823009DF6A7 /* Gray.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Gray.fsh; sourceTree = "<group>"; };
+		048ECFB22408F823009DF6A7 /* Cord.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Cord.vsh; sourceTree = "<group>"; };
+		048ECFB32408F823009DF6A7 /* Warm.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Warm.vsh; sourceTree = "<group>"; };
+		048ECFB52408F823009DF6A7 /* flash.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = flash.vsh; sourceTree = "<group>"; };
+		048ECFB62408F823009DF6A7 /* flash.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = flash.fsh; sourceTree = "<group>"; };
+		048ECFB82408F823009DF6A7 /* SplitScreen_2.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_2.fsh; sourceTree = "<group>"; };
+		048ECFB92408F823009DF6A7 /* SplitScreen_2.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_2.vsh; sourceTree = "<group>"; };
+		048ECFBB2408F823009DF6A7 /* Normal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Normal.fsh; sourceTree = "<group>"; };
+		048ECFBC2408F823009DF6A7 /* Normal.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Normal.vsh; sourceTree = "<group>"; };
+		048ECFBE2408F823009DF6A7 /* SplitScreen_4.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_4.fsh; sourceTree = "<group>"; };
+		048ECFBF2408F823009DF6A7 /* SplitScreen_4.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_4.vsh; sourceTree = "<group>"; };
+		048ECFC12408F823009DF6A7 /* skinNeed.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = skinNeed.vsh; sourceTree = "<group>"; };
+		048ECFC22408F823009DF6A7 /* skinNeed.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = skinNeed.fsh; sourceTree = "<group>"; };
+		048ECFC42408F823009DF6A7 /* relief.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = relief.vsh; sourceTree = "<group>"; };
+		048ECFC52408F823009DF6A7 /* relief.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = relief.fsh; sourceTree = "<group>"; };
+		048ECFED2408FC4D009DF6A7 /* ccCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccCollectionView.h; sourceTree = "<group>"; };
+		048ECFEE2408FC4E009DF6A7 /* ccCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccCollectionView.m; sourceTree = "<group>"; };
+		048ECFF02408FC55009DF6A7 /* ccCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccCollectionViewCell.m; sourceTree = "<group>"; };
+		048ECFF12408FC56009DF6A7 /* ccCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccCollectionViewCell.h; sourceTree = "<group>"; };
+		048ECFF32408FC73009DF6A7 /* filter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = filter.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048ECF532408F815009DF6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048ECF6E2408F816009DF6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048ECF792408F816009DF6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048ECF4D2408F815009DF6A7 = {
+			isa = PBXGroup;
+			children = (
+				048ECF582408F815009DF6A7 /* OpenGL-摄像头采集 */,
+				048ECF742408F816009DF6A7 /* OpenGL-摄像头采集Tests */,
+				048ECF7F2408F816009DF6A7 /* OpenGL-摄像头采集UITests */,
+				048ECF572408F815009DF6A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048ECF572408F815009DF6A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048ECF562408F815009DF6A7 /* OpenGL-摄像头采集.app */,
+				048ECF712408F816009DF6A7 /* OpenGL-摄像头采集Tests.xctest */,
+				048ECF7C2408F816009DF6A7 /* OpenGL-摄像头采集UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048ECF582408F815009DF6A7 /* OpenGL-摄像头采集 */ = {
+			isa = PBXGroup;
+			children = (
+				048ECF592408F815009DF6A7 /* AppDelegate.h */,
+				048ECF5A2408F815009DF6A7 /* AppDelegate.m */,
+				048ECFED2408FC4D009DF6A7 /* ccCollectionView.h */,
+				048ECFEE2408FC4E009DF6A7 /* ccCollectionView.m */,
+				048ECF912408F823009DF6A7 /* Filter */,
+				048ECF8E2408F823009DF6A7 /* opengl */,
+				048ECF5F2408F815009DF6A7 /* ViewController.h */,
+				048ECF602408F815009DF6A7 /* ViewController.m */,
+				048ECFF32408FC73009DF6A7 /* filter.json */,
+				048ECFF12408FC56009DF6A7 /* ccCollectionViewCell.h */,
+				048ECFF02408FC55009DF6A7 /* ccCollectionViewCell.m */,
+				048ECF622408F815009DF6A7 /* Main.storyboard */,
+				048ECF652408F816009DF6A7 /* Assets.xcassets */,
+				048ECF672408F816009DF6A7 /* LaunchScreen.storyboard */,
+				048ECF6A2408F816009DF6A7 /* Info.plist */,
+				048ECF6B2408F816009DF6A7 /* main.m */,
+			);
+			path = "OpenGL-摄像头采集";
+			sourceTree = "<group>";
+		};
+		048ECF742408F816009DF6A7 /* OpenGL-摄像头采集Tests */ = {
+			isa = PBXGroup;
+			children = (
+				048ECF752408F816009DF6A7 /* OpenGL______Tests.m */,
+				048ECF772408F816009DF6A7 /* Info.plist */,
+			);
+			path = "OpenGL-摄像头采集Tests";
+			sourceTree = "<group>";
+		};
+		048ECF7F2408F816009DF6A7 /* OpenGL-摄像头采集UITests */ = {
+			isa = PBXGroup;
+			children = (
+				048ECF802408F816009DF6A7 /* OpenGL______UITests.m */,
+				048ECF822408F816009DF6A7 /* Info.plist */,
+			);
+			path = "OpenGL-摄像头采集UITests";
+			sourceTree = "<group>";
+		};
+		048ECF8E2408F823009DF6A7 /* opengl */ = {
+			isa = PBXGroup;
+			children = (
+				048ECF902408F823009DF6A7 /* openGLManager.h */,
+				048ECF8F2408F823009DF6A7 /* openGLManager.m */,
+			);
+			path = opengl;
+			sourceTree = "<group>";
+		};
+		048ECF912408F823009DF6A7 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFBA2408F823009DF6A7 /* Normal */,
+				048ECF922408F823009DF6A7 /* Mosaic */,
+				048ECF9B2408F823009DF6A7 /* Vortex */,
+				048ECF9E2408F823009DF6A7 /* scale */,
+				048ECFA12408F823009DF6A7 /* hallucinat */,
+				048ECFA42408F823009DF6A7 /* SplitScreen_9 */,
+				048ECFA72408F823009DF6A7 /* shake */,
+				048ECFAA2408F823009DF6A7 /* soulOut */,
+				048ECFAD2408F823009DF6A7 /* RGB */,
+				048ECFB42408F823009DF6A7 /* flash */,
+				048ECFB72408F823009DF6A7 /* SplitScreen_2 */,
+				048ECFBD2408F823009DF6A7 /* SplitScreen_4 */,
+				048ECFC02408F823009DF6A7 /* skinNeed */,
+				048ECFC32408F823009DF6A7 /* relief */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		048ECF922408F823009DF6A7 /* Mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				048ECF932408F823009DF6A7 /* HexagonMosaic.fsh */,
+				048ECF942408F823009DF6A7 /* circleMosaic.fsh */,
+				048ECF952408F823009DF6A7 /* TriangleMosaic.fsh */,
+				048ECF962408F823009DF6A7 /* rectangleMosaic.fsh */,
+				048ECF972408F823009DF6A7 /* HexagonMosaic.vsh */,
+				048ECF982408F823009DF6A7 /* TriangleMosaic.vsh */,
+				048ECF992408F823009DF6A7 /* rectangleMosaic.vsh */,
+				048ECF9A2408F823009DF6A7 /* circleMosaic.vsh */,
+			);
+			path = Mosaic;
+			sourceTree = "<group>";
+		};
+		048ECF9B2408F823009DF6A7 /* Vortex */ = {
+			isa = PBXGroup;
+			children = (
+				048ECF9C2408F823009DF6A7 /* Vortex.vsh */,
+				048ECF9D2408F823009DF6A7 /* Vortex.fsh */,
+			);
+			path = Vortex;
+			sourceTree = "<group>";
+		};
+		048ECF9E2408F823009DF6A7 /* scale */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFA02408F823009DF6A7 /* scale.fsh */,
+				048ECF9F2408F823009DF6A7 /* scale.vsh */,
+			);
+			path = scale;
+			sourceTree = "<group>";
+		};
+		048ECFA12408F823009DF6A7 /* hallucinat */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFA22408F823009DF6A7 /* hallucinat.vsh */,
+				048ECFA32408F823009DF6A7 /* hallucinat.fsh */,
+			);
+			path = hallucinat;
+			sourceTree = "<group>";
+		};
+		048ECFA42408F823009DF6A7 /* SplitScreen_9 */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFA52408F823009DF6A7 /* SplitScreen_9.vsh */,
+				048ECFA62408F823009DF6A7 /* SplitScreen_9.fsh */,
+			);
+			path = SplitScreen_9;
+			sourceTree = "<group>";
+		};
+		048ECFA72408F823009DF6A7 /* shake */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFA82408F823009DF6A7 /* shake.fsh */,
+				048ECFA92408F823009DF6A7 /* shake.vsh */,
+			);
+			path = shake;
+			sourceTree = "<group>";
+		};
+		048ECFAA2408F823009DF6A7 /* soulOut */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFAB2408F823009DF6A7 /* soulOut.vsh */,
+				048ECFAC2408F823009DF6A7 /* soulOut.fsh */,
+			);
+			path = soulOut;
+			sourceTree = "<group>";
+		};
+		048ECFAD2408F823009DF6A7 /* RGB */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFAE2408F823009DF6A7 /* Gray.vsh */,
+				048ECFAF2408F823009DF6A7 /* Warm.fsh */,
+				048ECFB02408F823009DF6A7 /* Cord.fsh */,
+				048ECFB12408F823009DF6A7 /* Gray.fsh */,
+				048ECFB22408F823009DF6A7 /* Cord.vsh */,
+				048ECFB32408F823009DF6A7 /* Warm.vsh */,
+			);
+			path = RGB;
+			sourceTree = "<group>";
+		};
+		048ECFB42408F823009DF6A7 /* flash */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFB52408F823009DF6A7 /* flash.vsh */,
+				048ECFB62408F823009DF6A7 /* flash.fsh */,
+			);
+			path = flash;
+			sourceTree = "<group>";
+		};
+		048ECFB72408F823009DF6A7 /* SplitScreen_2 */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFB82408F823009DF6A7 /* SplitScreen_2.fsh */,
+				048ECFB92408F823009DF6A7 /* SplitScreen_2.vsh */,
+			);
+			path = SplitScreen_2;
+			sourceTree = "<group>";
+		};
+		048ECFBA2408F823009DF6A7 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFBB2408F823009DF6A7 /* Normal.fsh */,
+				048ECFBC2408F823009DF6A7 /* Normal.vsh */,
+			);
+			path = Normal;
+			sourceTree = "<group>";
+		};
+		048ECFBD2408F823009DF6A7 /* SplitScreen_4 */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFBE2408F823009DF6A7 /* SplitScreen_4.fsh */,
+				048ECFBF2408F823009DF6A7 /* SplitScreen_4.vsh */,
+			);
+			path = SplitScreen_4;
+			sourceTree = "<group>";
+		};
+		048ECFC02408F823009DF6A7 /* skinNeed */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFC12408F823009DF6A7 /* skinNeed.vsh */,
+				048ECFC22408F823009DF6A7 /* skinNeed.fsh */,
+			);
+			path = skinNeed;
+			sourceTree = "<group>";
+		};
+		048ECFC32408F823009DF6A7 /* relief */ = {
+			isa = PBXGroup;
+			children = (
+				048ECFC42408F823009DF6A7 /* relief.vsh */,
+				048ECFC52408F823009DF6A7 /* relief.fsh */,
+			);
+			path = relief;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048ECF552408F815009DF6A7 /* OpenGL-摄像头采集 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048ECF852408F816009DF6A7 /* Build configuration list for PBXNativeTarget "OpenGL-摄像头采集" */;
+			buildPhases = (
+				048ECF522408F815009DF6A7 /* Sources */,
+				048ECF532408F815009DF6A7 /* Frameworks */,
+				048ECF542408F815009DF6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL-摄像头采集";
+			productName = "OpenGL-摄像头采集";
+			productReference = 048ECF562408F815009DF6A7 /* OpenGL-摄像头采集.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048ECF702408F816009DF6A7 /* OpenGL-摄像头采集Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048ECF882408F816009DF6A7 /* Build configuration list for PBXNativeTarget "OpenGL-摄像头采集Tests" */;
+			buildPhases = (
+				048ECF6D2408F816009DF6A7 /* Sources */,
+				048ECF6E2408F816009DF6A7 /* Frameworks */,
+				048ECF6F2408F816009DF6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048ECF732408F816009DF6A7 /* PBXTargetDependency */,
+			);
+			name = "OpenGL-摄像头采集Tests";
+			productName = "OpenGL-摄像头采集Tests";
+			productReference = 048ECF712408F816009DF6A7 /* OpenGL-摄像头采集Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048ECF7B2408F816009DF6A7 /* OpenGL-摄像头采集UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048ECF8B2408F816009DF6A7 /* Build configuration list for PBXNativeTarget "OpenGL-摄像头采集UITests" */;
+			buildPhases = (
+				048ECF782408F816009DF6A7 /* Sources */,
+				048ECF792408F816009DF6A7 /* Frameworks */,
+				048ECF7A2408F816009DF6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048ECF7E2408F816009DF6A7 /* PBXTargetDependency */,
+			);
+			name = "OpenGL-摄像头采集UITests";
+			productName = "OpenGL-摄像头采集UITests";
+			productReference = 048ECF7C2408F816009DF6A7 /* OpenGL-摄像头采集UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048ECF4E2408F815009DF6A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = cc;
+				TargetAttributes = {
+					048ECF552408F815009DF6A7 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					048ECF702408F816009DF6A7 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 048ECF552408F815009DF6A7;
+					};
+					048ECF7B2408F816009DF6A7 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 048ECF552408F815009DF6A7;
+					};
+				};
+			};
+			buildConfigurationList = 048ECF512408F815009DF6A7 /* Build configuration list for PBXProject "OpenGL-摄像头采集" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048ECF4D2408F815009DF6A7;
+			productRefGroup = 048ECF572408F815009DF6A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048ECF552408F815009DF6A7 /* OpenGL-摄像头采集 */,
+				048ECF702408F816009DF6A7 /* OpenGL-摄像头采集Tests */,
+				048ECF7B2408F816009DF6A7 /* OpenGL-摄像头采集UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048ECF542408F815009DF6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048ECFE92408F823009DF6A7 /* skinNeed.vsh in Resources */,
+				048ECFE62408F823009DF6A7 /* Normal.vsh in Resources */,
+				048ECFD72408F823009DF6A7 /* shake.fsh in Resources */,
+				048ECFE42408F823009DF6A7 /* SplitScreen_2.vsh in Resources */,
+				048ECFDD2408F823009DF6A7 /* Cord.fsh in Resources */,
+				048ECFD12408F823009DF6A7 /* scale.vsh in Resources */,
+				048ECF692408F816009DF6A7 /* LaunchScreen.storyboard in Resources */,
+				048ECFD32408F823009DF6A7 /* hallucinat.vsh in Resources */,
+				048ECFE72408F823009DF6A7 /* SplitScreen_4.fsh in Resources */,
+				048ECF662408F816009DF6A7 /* Assets.xcassets in Resources */,
+				048ECFD62408F823009DF6A7 /* SplitScreen_9.fsh in Resources */,
+				048ECFCC2408F823009DF6A7 /* TriangleMosaic.vsh in Resources */,
+				048ECFD92408F823009DF6A7 /* soulOut.vsh in Resources */,
+				048ECFEA2408F823009DF6A7 /* skinNeed.fsh in Resources */,
+				048ECFDA2408F823009DF6A7 /* soulOut.fsh in Resources */,
+				048ECFC72408F823009DF6A7 /* HexagonMosaic.fsh in Resources */,
+				048ECFEC2408F823009DF6A7 /* relief.fsh in Resources */,
+				048ECFE52408F823009DF6A7 /* Normal.fsh in Resources */,
+				048ECFDB2408F823009DF6A7 /* Gray.vsh in Resources */,
+				048ECFF42408FC73009DF6A7 /* filter.json in Resources */,
+				048ECFE82408F823009DF6A7 /* SplitScreen_4.vsh in Resources */,
+				048ECFC92408F823009DF6A7 /* TriangleMosaic.fsh in Resources */,
+				048ECFC82408F823009DF6A7 /* circleMosaic.fsh in Resources */,
+				048ECFDE2408F823009DF6A7 /* Gray.fsh in Resources */,
+				048ECFDF2408F823009DF6A7 /* Cord.vsh in Resources */,
+				048ECFD02408F823009DF6A7 /* Vortex.fsh in Resources */,
+				048ECFEB2408F823009DF6A7 /* relief.vsh in Resources */,
+				048ECFE22408F823009DF6A7 /* flash.fsh in Resources */,
+				048ECFDC2408F823009DF6A7 /* Warm.fsh in Resources */,
+				048ECFE12408F823009DF6A7 /* flash.vsh in Resources */,
+				048ECFCA2408F823009DF6A7 /* rectangleMosaic.fsh in Resources */,
+				048ECFE02408F823009DF6A7 /* Warm.vsh in Resources */,
+				048ECFCD2408F823009DF6A7 /* rectangleMosaic.vsh in Resources */,
+				048ECFD22408F823009DF6A7 /* scale.fsh in Resources */,
+				048ECFCB2408F823009DF6A7 /* HexagonMosaic.vsh in Resources */,
+				048ECFCF2408F823009DF6A7 /* Vortex.vsh in Resources */,
+				048ECFCE2408F823009DF6A7 /* circleMosaic.vsh in Resources */,
+				048ECF642408F815009DF6A7 /* Main.storyboard in Resources */,
+				048ECFD52408F823009DF6A7 /* SplitScreen_9.vsh in Resources */,
+				048ECFE32408F823009DF6A7 /* SplitScreen_2.fsh in Resources */,
+				048ECFD82408F823009DF6A7 /* shake.vsh in Resources */,
+				048ECFD42408F823009DF6A7 /* hallucinat.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048ECF6F2408F816009DF6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048ECF7A2408F816009DF6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048ECF522408F815009DF6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048ECF612408F815009DF6A7 /* ViewController.m in Sources */,
+				048ECFEF2408FC4E009DF6A7 /* ccCollectionView.m in Sources */,
+				048ECFF22408FC56009DF6A7 /* ccCollectionViewCell.m in Sources */,
+				048ECFC62408F823009DF6A7 /* openGLManager.m in Sources */,
+				048ECF5B2408F815009DF6A7 /* AppDelegate.m in Sources */,
+				048ECF6C2408F816009DF6A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048ECF6D2408F816009DF6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048ECF762408F816009DF6A7 /* OpenGL______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048ECF782408F816009DF6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048ECF812408F816009DF6A7 /* OpenGL______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048ECF732408F816009DF6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048ECF552408F815009DF6A7 /* OpenGL-摄像头采集 */;
+			targetProxy = 048ECF722408F816009DF6A7 /* PBXContainerItemProxy */;
+		};
+		048ECF7E2408F816009DF6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048ECF552408F815009DF6A7 /* OpenGL-摄像头采集 */;
+			targetProxy = 048ECF7D2408F816009DF6A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048ECF622408F815009DF6A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048ECF632408F815009DF6A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048ECF672408F816009DF6A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048ECF682408F816009DF6A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048ECF832408F816009DF6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048ECF842408F816009DF6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048ECF862408F816009DF6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "OpenGL-摄像头采集/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.OpenGL------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048ECF872408F816009DF6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "OpenGL-摄像头采集/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.OpenGL------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		048ECF892408F816009DF6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "OpenGL-摄像头采集Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.OpenGL------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL-摄像头采集.app/OpenGL-摄像头采集";
+			};
+			name = Debug;
+		};
+		048ECF8A2408F816009DF6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "OpenGL-摄像头采集Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.OpenGL------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL-摄像头采集.app/OpenGL-摄像头采集";
+			};
+			name = Release;
+		};
+		048ECF8C2408F816009DF6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "OpenGL-摄像头采集UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.OpenGL------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGL-摄像头采集";
+			};
+			name = Debug;
+		};
+		048ECF8D2408F816009DF6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "OpenGL-摄像头采集UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.OpenGL------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenGL-摄像头采集";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048ECF512408F815009DF6A7 /* Build configuration list for PBXProject "OpenGL-摄像头采集" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048ECF832408F816009DF6A7 /* Debug */,
+				048ECF842408F816009DF6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048ECF852408F816009DF6A7 /* Build configuration list for PBXNativeTarget "OpenGL-摄像头采集" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048ECF862408F816009DF6A7 /* Debug */,
+				048ECF872408F816009DF6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048ECF882408F816009DF6A7 /* Build configuration list for PBXNativeTarget "OpenGL-摄像头采集Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048ECF892408F816009DF6A7 /* Debug */,
+				048ECF8A2408F816009DF6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048ECF8B2408F816009DF6A7 /* Build configuration list for PBXNativeTarget "OpenGL-摄像头采集UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048ECF8C2408F816009DF6A7 /* Debug */,
+				048ECF8D2408F816009DF6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048ECF4E2408F815009DF6A7 /* Project object */;
+}
